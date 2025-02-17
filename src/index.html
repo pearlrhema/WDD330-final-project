@@ -16,15 +16,18 @@
       <img src="/images/banner-sm.jpg" srcset="images/banner-sm.jpg 500w, images/banner.jpg"
         alt="image of a high mountain lake" />
       <div class="logo logo--square">
-        <img src="/images/noun_Tent_2517.svg" alt="tent image for logo" />
-        <div>Sleep<span class="highlight">Outside</span></div>
+        <!-- <img src="/images/noun_Tent_2517.svg" alt="tent image for logo" /> -->
+        <img src="/images/logo-img.PNG" alt="image for logo" />
+
+        <div><span class="highlight">FlameBite</span></div>
       </div>
     </div>
     <section class="mission">
       <!-- <p>We spend too much time these days indoors...sitting usually.</p> -->
       <p>Why worry about the stres of booking for your meal reservation and going to get your cooking gas refilled.
         <span class="highlight">FlameBite</span> is your one stop hub for schedulling but your meal reservation and
-        ordering for your gas delivery</p>
+        ordering for your gas delivery
+      </p>
       <p><span class="highlight">Save yourself the stress!</span></p>
       <p>
         What we really need is efficiency in managing both dinner reservations and home services, a streamlined and
@@ -35,74 +38,61 @@
     <section class="products">
       <ul class="product-grid">
         <li>
-          <a href="product-listing/index.html?category=tents">
-            <img src="images/noun_Tent_3544767.svg" alt="Tent Icon from Noun Project: Mustofa Bayu" />
-            <h2>Tents</h2>
-          </a>
-        </li>
-        <li>
-          <a href="product-listing/index.html?category=backpacks">
-            <img src="images/noun_carrier bag_3544771.svg" alt="Backpack Icon from Noun Project: Mustofa Bayu" />
-            <h2>Backpacks</h2>
-          </a>
-        </li>
-        <li>
           <a href="product-listing/index.html?category=sleeping-bags">
-            <img src="images/noun_Sleeping Bag_3544775.svg" alt="Sleeping Bag Icon from Noun Project: Mustofa Bayu" />
-            <h2>Sleeping Bags</h2>
+            <img src="/images/restaurant.svg" alt="Sleeping Bag Icon from Noun Project: Mustofa Bayu" />
+            <h2>Restaurant</h2>
           </a>
         </li>
         <li>
           <a href="product-listing/index.html?category=hammocks">
-            <img src="images/noun_Hammock_791143.svg" alt="Hammock Icon from Noun Project: Paul Richard" />
-            <h2>Hammocks</h2>
+            <img src="/images/gas-pump.svg" alt="Hammock Icon from Noun Project: Paul Richard" />
+            <h2>Cooking Gas</h2>
           </a>
         </li>
-        <!-- <li class="product-card">
-            <a href="product_pages/?product=880RR">
-              <img
-                src="images/tents/marmot-ajax-tent-3-person-3-season-in-pale-pumpkin-terracotta~p~880rr_01~320.jpg"
-                alt="Marmot Ajax tent"
-              />
-              <h3 class="card__brand">Marmot</h3>
-              <h2 class="card__name">Ajax Tent - 3-Person, 3-Season</h2>
-              <p class="product-card__price">$199.99</p></a
-            >
-          </li>
-          <li class="product-card">
-            <a href="product_pages/?product=985RF">
-              <img
-                src="images/tents/the-north-face-talus-tent-4-person-3-season-in-golden-oak-saffron-yellow~p~985rf_01~320.jpg"
-                alt="Talus Tent - 4-Person, 3-Season"
-              />
-              <h3 class="card__brand">The North Face</h3>
-              <h2 class="card__name">Talus Tent - 4-Person, 3-Season</h2>
-              <p class="product-card__price">$199.99</p></a
-            >
-          </li>
-          <li class="product-card">
-            <a href="product_pages/?product=985PR">
-              <img
-                src="images/tents/the-north-face-alpine-guide-tent-3-person-4-season-in-canary-yellow-high-rise-grey~p~985pr_01~320.jpg"
-                alt="Alpine Guide Tent - 3-Person, 4-Season"
-              />
-              <h3 class="card__brand">The North Face</h3>
-              <h2 class="card__name">Alpine Guide Tent - 3-Person, 4-Season</h2>
-              <p class="product-card__price">$349.99</p></a
-            >
-          </li>
-          <li class="product-card">
-            <a href="product_pages/?product=344YJ">
-              <img
-                src="images/tents/cedar-ridge-rimrock-tent-2-person-3-season-in-rust-clay~p~344yj_01~320.jpg"
-                alt="Rimrock Tent - 2-Person, 3-Season"
-              />
-              <h3 class="card__brand">Cedar Ridge</h3>
-              <h2 class="card__name">Rimrock Tent - 2-Person, 3-Season</h2>
-              <p class="product-card__price">$69.99</p></a
-            >
-          </li> -->
       </ul>
+    </section>
+    <section class="card" id="chamber-events">
+      <h3>Events</h3>
+      <ul>
+        <li>
+          <strong>Networking Mixer</strong>
+          <p>Date: February 15, 2024 | Time: 6:00 PM - 8:00 PM</p>
+          <p>Location: Ikot Abasi, Ikpe Ikot Akpan</p>
+          <a href="#" target="_blank">Register Now</a>
+        </li>
+        <li>
+          <strong>Small Business Workshop: Marketing Strategies</strong>
+          <p>Date: March 5, 2024 | Time: 9:00 AM - 12:00 PM</p>
+          <p>Location: 20 Calabar Itu Road, Ikot Ekpene</p>
+          <a href="#" target="_blank">Register Now</a>
+        </li>
+        <li>
+          <strong>Annual Chamber Gala</strong>
+          <p>Date: April 20, 2024 | Time: 7:00 PM - 10:00 PM</p>
+          <p>Location: City Convention Center, 789 Gala Blvd, Cityville</p>
+          <a href="#" target="_blank">Register Now</a>
+        </li>
+      </ul>
+    </section>
+
+    <section class="card" id="place">
+      <h3>Current Weather</h3>
+      <p>The current temperature in Ikot Ekpene, Nigeria is <span id="current-temp"></span></p>
+      <figure id="weather-icon">
+        <!-- <figcaption></figcaption> -->
+      </figure>
+    </section>
+    <section class="card" id="completion">
+      <h3>Weather Forecast</h3>
+      <div class="forecast-item" id="icon1">
+        <p>Day 1: <span id="dayone"></span> <span id="description1"></span></p>
+      </div>
+      <div class="forecast-item" id="icon2">
+        <p>Day 2: <span id="daytwo"></span> <span id="description2"></span></p>
+      </div>
+      <div class="forecast-item" id="icon3">
+        <p>Day 3: <span id="daythree"></span> <span id="description3"></span></p>
+      </div>
     </section>
     <div class="newsletter-signup">
       <h2>Sign Up for Our Newsletter!</h2>
